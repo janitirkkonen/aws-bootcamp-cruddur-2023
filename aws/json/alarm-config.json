@@ -3,7 +3,7 @@
     "AlarmDescription": "This alarm would be triggered if the daily estimated charges exceeds 10£",
     "ActionsEnabled": true,
     "AlarmActions": [
-        "arn:aws:sns:eu-west-2:146146981922:billing-alarm"
+        "arn:aws:sns:eu-west-2:[ACCOUNT_NUMBER]:billing-alarm"
     ],
     "EvaluationPeriods": 1,
     "DatapointsToAlarm": 1,
